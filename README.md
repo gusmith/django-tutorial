@@ -39,3 +39,23 @@ poetry run python manage.py startapp blog
 poetry run ruff format
 poetry run ruff check --fix
 ```
+
+### Make model migrations
+
+Create the migration scripts:
+
+```shell
+poetry run python manage.py makemigrations
+```
+
+See the migration:
+
+```shell
+poetry run python manage.py sqlmigrate blog 0001
+```
+
+Run the migration:
+
+```shell
+poetry run python manage.py migrate
+```
