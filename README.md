@@ -1,9 +1,13 @@
 # django-tutorial
 Learning Django framework
 
-## Link
+## Links
 
 Use the [pythontutorial.net](https://www.pythontutorial.net/django-tutorial/getting-started-with-django/) tutorial to learn.
+
+### Useful links
+
+- [template builtins](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/) lik to Django built-in template tags and filters
 
 ## Development
 
@@ -27,4 +31,10 @@ poetry run python manage.py runserver
 
 ```shell
 poetry run python manage.py startapp blog
+```
+
+### Code formatter
+
+```shell
+poetry run ruff format
 ```
