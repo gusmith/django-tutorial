@@ -33,8 +33,9 @@ poetry run python manage.py runserver
 poetry run python manage.py startapp blog
 ```
 
-### Code formatter
+### Code formatter and linter
 
 ```shell
 poetry run ruff format
+poetry run ruff check --fix
 ```
