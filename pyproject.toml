@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-tutorial"
+version = "0.1.0"
+description = "Django learning"
+authors = ["Guillaume Smith <gwil1248@fastmail.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
