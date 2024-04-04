@@ -1,4 +1,5 @@
 # django-tutorial
+
 Learning Django framework
 
 ## Links
@@ -58,4 +59,10 @@ Run the migration:
 
 ```shell
 poetry run python manage.py migrate
+```
+
+### Create a super user
+
+```shell
+poetry run python manage.py createsuperuser
 ```
